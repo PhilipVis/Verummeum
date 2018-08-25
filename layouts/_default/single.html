@@ -53,11 +53,14 @@
                             </a>
                         </div>
 
-                        {{ if .Site.DisqusShortname }}
                         <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
+                            <script src="https://utteranc.es/client.js"
+                                repo="PhilipVis/philipvis.github.io"
+                                issue-term="pathname"
+                                crossorigin="anonymous"
+                                async>
+                            </script>
                         </div>
-                        {{ end }}
 
                     </div>
 

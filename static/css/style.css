@@ -2176,3 +2176,15 @@ a.bg-primary:hover {
   margin-bottom: 10px;
   display: inline-block;
 }
+
+@media (min-width:  992px) {
+  .utterances-frame {
+    margin-left: -85px;
+  }
+}
+
+@media (min-width:  1200px) {
+  .utterances-frame {
+    margin-left: -185px;
+  }
+}
