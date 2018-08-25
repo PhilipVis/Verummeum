@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+
+    <div id="all">
+
+        <header>
+
+            {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }}
+                            <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+
+                        <div id="post-content">
+                            {{ .Content }}
+                        </div>
+
+                        <div id="post-share">
+                            <h3>Share</h5>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Site.BaseURL }}{{ .URL }}" target="_blank">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="https://plus.google.com/share?url={{ .Site.BaseURL }}{{ .URL }}" target="_blank">
+                                <i class="fab fa-google-plus-square fa-2x"></i>
+                            </a>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Site.BaseURL }}{{ .URL }}" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+                                <i class="fab fa-pinterest-square fa-2x"></i>
+                            </a>
+
+                            <a href="http://reddit.com/submit?url={{ .Site.BaseURL }}{{ .URL }}&amp;title={{ .Title }}" target="_blank">
+                                <i class="fab fa-reddit-square fa-2x"></i>
+                            </a>
+
+                            <a href="https://twitter.com/share?url={{ .Site.BaseURL }}{{ .URL }}&amp;text={{ .Title }}&amp;hashtags=verummeum" target="_blank">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                        </div>
+
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+
+    </div>
+
+    {{ partial "scripts.html" . }}
+
+</body>
+
+</html>
