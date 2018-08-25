@@ -1,11 +1,11 @@
-baseurl = "https://verummeum.com"
+baseurl = "https://verummeum.com/"
 title = "Verummeum"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-124578903-1"
 
 # Define the number of posts per page
 paginate = 10
@@ -41,7 +41,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "philip@verummeum.com"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
