@@ -2157,11 +2157,11 @@ a.bg-primary:hover {
 }
 
 #content {
-  min-height: calc(100vh - 300px);
+  min-height: calc(100vh - 299px);
 }
 
 #heading-breadcrumbs + #content {
-  min-height: calc(100vh - 393px);
+  min-height: calc(100vh - 392px);
 }
 
 .navigate a {
