@@ -1,7 +1,7 @@
 +++
 title = "PCLinuxOS KDE Review"
 date = "2018-08-25"
-tags = ["PCLinuxOS", "Linux", "Review"]
+tags = ["PCLinuxOS", "Linux", "review"]
 categories = ["review"]
 banner = "/img/blog/2018/pclinuxos/pclinuxos_logo_thumbnail.jpg" 
 +++
