@@ -1,21 +1,3 @@
-- id: home
-  translation: "Home"
-
-- id: templateBy
-  translation: "Template by"
-
-- id: portedBy
-  translation: "Ported to Hugo by"
-
-- id: contactGoTo
-  translation: "Go to contact page"
-
-- id: contactAddrTitle
-  translation: "Address"
-
-- id: contactTitle
-  translation: "Contact"
-
 - id: contactForm
   translation: "Contact form"
 
@@ -49,17 +31,8 @@
 - id: continueReading
   translation: "Continue reading"
 
-- id: readMore
-  translation: "Read more"
-
 - id: authorBy
   translation: "By"
-
-- id: recentPosts
-  translation: "Recent posts"
-
-- id: aboutUs
-  translation: "About"
 
 - id: newer
   translation: "Newer"
@@ -67,5 +40,20 @@
 - id: older
   translation: "Older"
 
-- id: publishedOn
-  translation: "on"
+- id: home
+  translation: "Home"
+
+- id: about
+  translation: "About"
+
+- id: contact
+  translation: "Contact"
+
+- id: search
+  translation: "Search"
+
+- id: navigate
+  translation: "Navigate"
+
+- id: subscribe
+  translation: "Subscribe"

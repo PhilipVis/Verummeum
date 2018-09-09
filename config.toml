@@ -10,6 +10,11 @@ googleAnalytics = "UA-124578903-1"
 # Define the number of posts per page
 paginate = 10
 
+[author]
+  homepage = "https://verummeum.com/"
+  name = "Philip Vissenaekens"
+
+
 [menu]
 
 # Main menu
@@ -27,6 +32,8 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     defaultDescription = "blog"
+
+
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -54,3 +61,20 @@ paginate = 10
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   blog = ["HTML", "JSON", "RSS"]
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true

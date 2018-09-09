@@ -1,10 +1,15 @@
 {{ template "_internal/google_analytics.html" . }}
 
-<script src="{{ .Site.BaseURL }}js/jquery-3.1.1.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+{{ $jquery := resources.Get "js/jquery-3.1.1.min.js" }}
+{{ $bootstrap := resources.Get "js/bootstrap.min.js" }}
+{{ $moment := resources.Get "js/moment.min.js" }}
+{{ $fancybox := resources.Get "js/jquery.fancybox.min.js" }}
+{{ $lunr := resources.Get "js/lunr.min.js" }}
+{{ $lunrsearch := resources.Get "js/lunr-search.js" }}
 
-<script src="{{ .Site.BaseURL }}js/moment.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.fancybox.min.js"></script>
+{{ $js := slice $jquery $bootstrap $moment $fancybox $lunr $lunrsearch | resources.Concat "js/bundle.js" | resources.Minify }}
+<script src="{{ $js.Permalink }}"></script>
+
 
 
 
