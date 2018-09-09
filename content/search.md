@@ -1,6 +1,6 @@
 +++
 title = "Search"
-description = "Search"
+description = "Search articles in Verummeum"
 keywords = ["search"]
 type = "search"
 +++

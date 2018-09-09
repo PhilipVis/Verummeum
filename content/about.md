@@ -1,6 +1,6 @@
 +++
 title = "About"
-description = "About"
+description = "About Verummeum"
 keywords = ["about"]
 type = "about"
 +++

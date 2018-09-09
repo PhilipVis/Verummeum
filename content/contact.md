@@ -2,6 +2,7 @@
 title = "Contact"
 id = "contact"
 type = "contact"
+description = "Contact Verummeum"
 +++
 
 ## Feel free to contact me

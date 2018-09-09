@@ -10,6 +10,8 @@ googleAnalytics = "UA-124578903-1"
 # Define the number of posts per page
 paginate = 10
 
+enableRobotsTXT = true
+
 [author]
   homepage = "https://verummeum.com/"
   name = "Philip Vissenaekens"
@@ -31,7 +33,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    defaultDescription = "blog"
+    defaultDescription = "The purpose of Verummeum is to provide you with interesting articles about software development, open source projects and gaming"
 
 
 
