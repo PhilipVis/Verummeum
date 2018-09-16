@@ -1,6 +1,6 @@
 +++
 title = "Search, comments and an image viewer with Hugo"
-date = "2018-09-16T14:19:00+02:00"
+date = "2018-09-16T14:25:00+02:00"
 tags = ["Verummeum", "Hugo", "guide"]
 categories = ["guide"]
 banner = "img/blog/2018/hugo-advanced/hugo_advanced_thumbnail.jpg" 
