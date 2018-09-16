@@ -3,7 +3,7 @@ title = "How Verummeum is built, Hugo static site generator"
 date = "2018-09-02T14:19:00+02:00"
 tags = ["Verummeum", "Hugo", "guide"]
 categories = ["guide"]
-banner = "/img/blog/2018/hugo/hugo_logo_thumbnail.jpg" 
+banner = "img/blog/2018/hugo/hugo_logo_thumbnail.jpg" 
 description= "Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator."
 +++
 

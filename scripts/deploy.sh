@@ -2,6 +2,13 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Go To Public folder
+cd ../public
+
+#clean the public folder of generated files
+find -maxdepth 1 ! -name readme.md ! -name CNAME ! -name . -exec rm -rv {} \;
+
+# go back to the root folder
 cd ..
 
 # Build the project.

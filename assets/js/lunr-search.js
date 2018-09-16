@@ -97,7 +97,7 @@ function renderResults(results) {
             "<div class='col-md-4'> " +
             "<div class='image'>" +
             "<a href='" + result.uri + "'>" +
-            "<img src='" + result.banner + "' class='img-responsive' alt=''>" +
+            "<img src='/" + result.banner + "' class='img-responsive' alt=''>" +
             "</a>" +
             "</div>" +
             "</div>" +
@@ -129,8 +129,11 @@ function renderResults(results) {
     });
 }
 
-initLunr();
+
 
 $(document).ready(function () {
-    initUI();
+    if($("#searchinput").length) {
+        initLunr();
+        initUI();
+    }
 });

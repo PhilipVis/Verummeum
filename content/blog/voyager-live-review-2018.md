@@ -3,7 +3,7 @@ title = "Voyager Live 18.04.1 Review"
 date = "2018-09-09T18:34:00+02:00"
 tags = ["Voyager", "Live", "Linux", "review"]
 categories = ["review"]
-banner = "/img/blog/2018/voyager/voyager_logo_thumbnail.jpg" 
+banner = "img/blog/2018/voyager/voyager_logo_thumbnail.jpg" 
 description= "In this article we take a deeper look into the Voyager Live 18.04.1 Linux distribution."
 +++
 

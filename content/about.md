@@ -18,9 +18,7 @@ The creator and author of Verummeum is Philip Vissenaekens, a software developer
 
 ### More information
 
-If you would like to find out more about Philip and his career, you can visit the following Links:
-
-[Feel-io, the company Philip co-founded](https://www.feelio.be/)
+If you would like to find out more about Philip's career and work, you can visit the following Links:
 
 [Linkedin](https://www.linkedin.com/in/philipvissenaekens/)
 

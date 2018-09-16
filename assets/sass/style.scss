@@ -487,9 +487,13 @@ p.lead, section, div.section {
 #blog-post {
   #post-content {
     margin-bottom: 20px;
+
+    h1, h2, h3 {
+      margin-top: 40px;
+    }
   }
 
-  #comments{
+  div#comments{
     padding: 20px 0;
     margin-top: 20px;
     border-top: solid 1px $gray-light;
@@ -1070,6 +1074,10 @@ p {
 
 #post-share {
   margin-bottom: 30px;
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .thumbnail-image {
