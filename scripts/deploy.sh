@@ -14,19 +14,6 @@ cd ..
 # Build the project.
 hugo 
 
-# Add changes to the source git.
-git add .
-
-# Commit changes.
-msg="verummeum"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -m "$msg"
-
-# Push to source repo.
-git push origin master
-
 # Go To Public folder
 cd public
 
@@ -38,4 +25,20 @@ msg="rebuilding site `date`"
 git commit -m "$msg"
 
 # Push to website repo.
+git push origin master
+
+# go back to the root folder
+cd ..
+
+# Add changes to the source git.
+git add .
+
+# Commit changes.
+msg="verummeum"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push to source repo.
 git push origin master
