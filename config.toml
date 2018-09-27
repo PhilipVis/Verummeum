@@ -25,11 +25,13 @@ enableRobotsTXT = true
     name = "about"
     url  = "/about/"
     weight = 1
+    pre = ""
 
 [[menu.main]]
     name = "search"
     url  = "/search/"
     weight = 2
+    pre = "<i class='fas fa-search'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
