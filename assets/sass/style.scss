@@ -485,6 +485,9 @@ p.lead, section, div.section {
 }
 
 #blog-post {
+  float: none;
+  position: unset;
+
   #post-content {
     margin-bottom: 20px;
 

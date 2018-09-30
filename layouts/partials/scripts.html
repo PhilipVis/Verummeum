@@ -7,9 +7,5 @@
 {{ $lunr := resources.Get "js/lunr.min.js" }}
 {{ $lunrsearch := resources.Get "js/lunr-search.js" }}
 
-{{ $js := slice $jquery $bootstrap $moment $fancybox $lunr $lunrsearch | resources.Concat "js/bundle.js" | resources.Minify }}
-<script src="{{ $js.Permalink }}"></script>
-
-
-
-
+{{ $js := slice $jquery $bootstrap $moment $fancybox $lunr $lunrsearch | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>

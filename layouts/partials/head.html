@@ -24,12 +24,13 @@
   {{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
   {{ $fancybox := resources.Get "css/jquery.fancybox.min.css" }}
   {{ $dejavusans := resources.Get "font/DejaVuSans/stylesheet.css" }}
-  {{ $style := resources.Get "sass/style.scss" | resources.ToCSS }}
-  
-  {{ $css := slice $fontawesome $bootstrap $fancybox $dejavusans $style | resources.Concat "css/bundle/bundle.css" | resources.Minify }}
+  {{ $css := slice $fontawesome $bootstrap $fancybox $dejavusans | resources.Concat "css/bundle/bundle.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.Permalink }}" type="text/css">
 
-  
+  {{ $options := (dict "targetPath" "css/bundle/style.min.css" "outputStyle" "compressed" "enableSourceMap" false)}}
+  {{ $style := resources.Get "sass/style.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
+
   <!-- Favicon and apple touch icons-->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
 
