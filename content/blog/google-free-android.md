@@ -63,6 +63,8 @@ I was also pleasantly surprised that the [OpenVPN](https://f-droid.org/en/packag
 
 Finally, I also use [Whatsapp](https://www.whatsapp.com/android/) regulary. Whatsapp is not available from the F-Droid app store because it is not FOSS. I was not able to find an alternative, so I have installed the Whatsapp APK directly from the [Whatsapp website](https://www.whatsapp.com/android/).
 
+If there are Android apps you would like to use that are only available from the Google Play Store, you also have the option to use [Yalp](https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/) to download apk files directly from the Play Store. Yalp does not warn you which Android apps rely on Google services, so some apps you can download using Yalp will not work on your Android system without Google services installed. 
+
 ## Other interesting Android projects
 
 So far the focus of this article has been on how I currently try to achieve a Google free Android system, but there are some other interesting projects that might help you on your journey to a more open and privacy-friendly system. 
@@ -87,6 +89,9 @@ The [Librem 5](https://puri.sm/shop/librem-5/) by [Purism](https://puri.sm/) is 
 
 [Copperhead OS](https://copperhead.co/) is an Android ROM based on the [Android Open Source Project (AOSP)](https://source.android.com/) that focuses on providing the most secure Android experience. Copperhead OS [heavily modifies](https://copperhead.co/android/docs/technical_overview) AOSP to make their ROM more secure. The ROM does not allow the installation of proprietary apps like the Google Play Store, but the [F-Droid](https://f-droid.org/en/) app store is installed out of the box. The [Copperhead OS](https://copperhead.co/) actually achieves what I have been trying to achieve on my own Android phone, a functional Google free Android device. Unfortunately only [a few devices](https://copperhead.co/android/docs/install#supported-devices) are currently supported by Copperhead OS. You also have the possibility to [buy an Android device](https://copperhead.co/android/store) with Copperhead OS pre-installed. 
 
+### MicroG
+
+The goal of the [MicroG project](https://microg.org/) is to replace proprietary Google apps (Gapps) components with open and free alternatives so that Android apps that rely on Google services to function can be used without Google apps installed on your Android Device. The [LineageOS for microG](https://lineage.microg.org/) project provides ROMs to install Lineage OS with MicroG and F-Droid pre-installed, so this is probably the easiest way to start using MicroG if your device is supported by Lineage OS. MicroG does not support all Google apps components yet. 
 
 ## Conclusion
 
