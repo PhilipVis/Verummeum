@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
 [params]
     viewMorePostLink = "/blog/"
-    defaultDescription = "The purpose of Verummeum is to provide you with interesting articles about software development, open source projects and gaming"
+    defaultDescription = "Read articles about software development, open-source projects and gaming, with a focus on the Linux operating system."
 
 
 
