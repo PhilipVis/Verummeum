@@ -6,7 +6,7 @@ type = "about"
 +++
 
 
-The purpose of Verummeum is to provide you with interesting articles about software development, open source projects and gaming. Most of these articles will have a focus on the Linux operating system. We hope you will enjoy our guides, reviews and opinion pieces about the latest developments in the software world. 
+The purpose of Verummeum is to provide you with interesting articles about software development, open-source projects and gaming. Most of these articles will have a focus on the Linux operating system. We hope you will enjoy our guides, reviews and opinion pieces about the latest developments in the software world. 
 
 Verummeum wants to provide a platform for interesting discussions amongst you, our dear readers. For this purpose a comment section is available under each article. 
 
@@ -20,6 +20,6 @@ The creator and author of Verummeum is Philip Vissenaekens, a software developer
 
 If you would like to find out more about Philip's career and work, you can visit the following Links:
 
-[Linkedin](https://www.linkedin.com/in/philipvissenaekens/)
+[Linkedin](https://www.linkedin.com/in/philipvissenaekens)
 
 [Github](https://github.com/PhilipVis)
