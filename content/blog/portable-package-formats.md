@@ -4,7 +4,7 @@ date = "2018-10-14T22:27:00+02:00"
 tags = ["Snap", "Flatpak", "AppImage"]
 categories = ["guide"]
 banner = "img/blog/2018/package-formats/snap_logo_thumbnail.jpg" 
-description= "In this article we compare the major portable package formats; Snap, Flatpak and Appimage."
+description= "In this article we compare the most popular independent package formats; Snap, Flatpak and AppImage."
 +++
 
 In recent years, three different distribution independent package formats have gained a lot of popularity. There are already a few Linux distributions like [Endless OS](https://endlessos.com/home/) and [Fedora Silverblue](https://silverblue.fedoraproject.org/) that depend solely on distribution independent packages to run desktop applications. Are these package formats ready to become main packages formats for Linux distributions? 
