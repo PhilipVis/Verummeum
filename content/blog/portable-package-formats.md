@@ -67,7 +67,7 @@ To have an easily repeatable test for the performance of VLC, I have measured th
 
 #### Snap
 
-The Snap package for VLC is available from [Snapcraft](https://snapcraft.io/vlc). The Snap package is installed in folder /snap/vlc with a size of 766 MB.
+The Snap package for VLC is available from [Snapcraft](https://snapcraft.io/vlc). The Snap package is installed in folder /snap/vlc with a size of 204 MB.
 
 Resource usage for the VLC Snap package:
 
@@ -100,7 +100,7 @@ The test case I used to inspect the resource usage of the different LibreOffice 
 
 #### Snap
 
-The Snap package for VLC is available from [Snapcraft](https://snapcraft.io/libreoffice). The Snap package is installed in folder /snap/libreoffice with a size of 1.9 GB.
+The Snap package for VLC is available from [Snapcraft](https://snapcraft.io/libreoffice). The Snap package is installed in folder /snap/libreoffice with a size of 501 MB.
 
 Resource usage for the LibreOffice Snap package:
 
@@ -131,7 +131,7 @@ My test case for GIMP was to open an image, apply a distortion filter to the ima
 
 #### Snap
 
-The Snap package for GIMP is available from [Snapcraft](https://snapcraft.io/gimp). The Snap package is installed in folder /snap/gimp with a size of 676 MB.
+The Snap package for GIMP is available from [Snapcraft](https://snapcraft.io/gimp). The Snap package is installed in folder /snap/gimp with a size of 192 MB.
 
 Unfortunately the GIMP Snap package did not run on my system. The following error is shown on startup:
 
@@ -159,4 +159,8 @@ Resource usage for the LibreOffice AppImage package:
 
 Each of the three package formats we have taken a look at in this article have their own advantages and disadvantages. In my opinion, each of these package formats still has improvements to make to really become a viable option as a main package format for Linux distributions. The great thing is that these package formats can coexist, so the end user does not have to pick a single package format, they can enjoy software from the different package formats. 
 
-The comparison of software in the different package formats shows that Snap packages seem to be the largest, and AppImages the smallest in size. Snap packages also seem to be more resource heavy than the other package formats. 
+The comparison of software in the different package formats shows that AppImages are the smallest in size in all our test cases. For VLC, the Snap package was a lot larger than the Flatpak package, while in the other test cases Snap packages were a bit smaller than the Flatpak alternatives. Snap packages seem to be more resource heavy compared to the other package formats. The resource usage of Flatpak and AppImage packages were very similar in all test cases. 
+
+
+<br/>
+_Edit on 15-10-2018: Size of the Snap packages has been updated based on [the Snapcraft documentation](https://docs.snapcraft.io/t/the-snap-directory/2817)._
