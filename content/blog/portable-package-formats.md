@@ -57,7 +57,7 @@ AppImage does not make use of repositories to provide updates. Instead, an AppIm
 
 ## Comparison
 
-I have tested two software packages that are available in the three different package formats. In this section we'll compare the size and performance of these packages to see if there are significant differences between the package formats. 
+I have tested two software packages that are available in the three different package formats. In this section we'll compare the size and performance of these packages to see if there are significant differences between the package formats. I have also included the performance of the eopkg packages, which are native on this [Solus](https://getsol.us/home/) system. 
 
 ### VLC
 
@@ -92,6 +92,14 @@ Unfortunately the VLC AppImage package was not able to run on my system. It show
 Failed to load module: /usr/lib64/gio/modules/libgiognutls.so
 ```
 
+#### Eopkg
+
+Installed size for the VLC eopkg package: 57.8 MB.
+
+Resource usage for the VLC eopkg package:
+
+{{< image small="/img/blog/2018/package-formats/vlc_eopkg_thumbnail.jpg" big="/img/blog/2018/package-formats/vlc_eopkg.jpg" alt="VLC eopkg resource usage" >}}
+
 ### LibreOffice
 
 I also tested LibreOffice, an open-source office suite. 
@@ -122,6 +130,14 @@ The LibreOffice AppImage can be downloaded from the [LibreOffice website](https:
 Resource usage for the LibreOffice AppImage package:
 
 {{< image small="/img/blog/2018/package-formats/libreoffice_appimage_thumbnail.jpg" big="/img/blog/2018/package-formats/libreoffice_appimage.jpg" alt="LibreOffice AppImage resource usage" >}}
+
+#### Eopkg
+
+Installed size for the LibreOffice eopkg package: 686.1 MB.
+
+Resource usage for the LibreOffice eopkg package:
+
+{{< image small="/img/blog/2018/package-formats/libreoffice_eopkg_thumbnail.jpg" big="/img/blog/2018/package-formats/libreoffice_eopkg.jpg" alt="LibreOffice eopkg resource usage" >}}
 
 ### GIMP
 
@@ -155,6 +171,14 @@ Resource usage for the LibreOffice AppImage package:
 
 {{< image small="/img/blog/2018/package-formats/gimp_appimage_thumbnail.jpg" big="/img/blog/2018/package-formats/gimp_appimage.jpg" alt="GIMP AppImage resource usage" >}}
 
+#### Eopkg
+
+Installed size for the GIMP eopkg package: 95.7 MB.
+
+Resource usage for the GIMP eopkg package:
+
+{{< image small="/img/blog/2018/package-formats/gimp_eopkg_thumbnail.jpg" big="/img/blog/2018/package-formats/gimp_eopkg.jpg" alt="GIMP eopkg resource usage" >}}
+
 ## Conclusion
 
 Each of the three package formats we have taken a look at in this article have their own advantages and disadvantages. In my opinion, each of these package formats still has improvements to make to really become a viable option as a main package format for Linux distributions. The great thing is that these package formats can coexist, so the end user does not have to pick a single package format, they can enjoy software from the different package formats. 
@@ -164,3 +188,5 @@ The comparison of software in the different package formats shows that AppImages
 
 <br/>
 _Edit on 15-10-2018: Size of the Snap packages has been updated based on [the Snapcraft documentation](https://docs.snapcraft.io/t/the-snap-directory/2817)._
+
+_Edit on 17-10-2018: Added resource usage of the native eopkg packages for comparison._
