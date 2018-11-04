@@ -5,6 +5,7 @@ tags = ["Siduction", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/siduction/siduction-logo_thumbnail.jpg" 
 description= "In this article we take a deeper look into the Siduction Cinnamon Linux distribution."
+aliases = ["/blog/2018/09/20/siduction-review-2018/",]
 +++
 
 The past week I tried to test [Siduction](https://news.siduction.org/) 2018.3, with the Cinnamon desktop environment. Siduction is a rolling-release Linux distribution based on Debian unstable, also known as Debian sid. 

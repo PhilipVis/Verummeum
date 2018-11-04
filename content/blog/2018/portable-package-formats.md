@@ -1,13 +1,15 @@
 +++
 title = "Snap, Flatpak and AppImage, package formats compared"
 date = "2018-10-14T22:27:00+02:00"
+lastmod = "2018-10-31"
 tags = ["Snap", "Flatpak", "AppImage"]
 categories = ["guide"]
 banner = "img/blog/2018/package-formats/snap_logo_thumbnail.jpg" 
 description= "In this article we compare the most popular independent package formats; Snap, Flatpak and AppImage."
+aliases = ["/blog/2018/10/14/portable-package-formats/",]
 +++
 
-In recent years, three different distribution independent package formats have gained a lot of popularity. There are already a few Linux distributions like [Endless OS](https://endlessos.com/home/) and [Fedora Silverblue](https://silverblue.fedoraproject.org/) that depend solely on distribution independent packages to run desktop applications. Are these package formats ready to become main packages formats for Linux distributions? 
+In recent years, three different distribution independent package formats have gained a lot of popularity. There are already a few Linux distributions like [Endless OS](https://verummeum.com/endless-os-review-2018/) and [Fedora Silverblue](https://silverblue.fedoraproject.org/) that depend solely on distribution independent packages to run desktop applications. Are these package formats ready to become main packages formats for Linux distributions? 
 
 In this article we will take a look at the advantages and disadvantages of each package format individually, and of distribution independent package formats in general.
 
@@ -108,7 +110,7 @@ The test case I used to inspect the resource usage of the different LibreOffice 
 
 #### Snap
 
-The Snap package for VLC is available from [Snapcraft](https://snapcraft.io/libreoffice). The Snap package is installed in folder /snap/libreoffice with a size of 501 MB.
+The Snap package for LibreOffice is available from [Snapcraft](https://snapcraft.io/libreoffice). The Snap package is installed in folder /snap/libreoffice with a size of 501 MB.
 
 Resource usage for the LibreOffice Snap package:
 
@@ -159,7 +161,7 @@ execv failed: No such file or directory
 
 GIMP is available as a Flatpak package from [Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice). The Flatpak package is installed in folder /var/lib/flatpak/app/org.gimp.GIMP with a size of 214 MB.
 
-Resource usage for the LibreOffice Flatpak package:
+Resource usage for the GIMP Flatpak package:
 
 {{< image small="/img/blog/2018/package-formats/gimp_flatpak_thumbnail.jpg" big="/img/blog/2018/package-formats/gimp_flatpak.jpg" alt="GIMP Flatpak resource usage" >}}
 
@@ -167,7 +169,7 @@ Resource usage for the LibreOffice Flatpak package:
 
 The GIMP AppImage package can be downloaded from the [GIMP website](https://github.com/aferrero2707/gimp-appimage/releases). The size of the AppImage file is 89.7 MB. 
 
-Resource usage for the LibreOffice AppImage package:
+Resource usage for the GIMP AppImage package:
 
 {{< image small="/img/blog/2018/package-formats/gimp_appimage_thumbnail.jpg" big="/img/blog/2018/package-formats/gimp_appimage.jpg" alt="GIMP AppImage resource usage" >}}
 
@@ -187,6 +189,3 @@ The comparison of software in the different package formats shows that AppImages
 
 
 <br/>
-_Edit on 15-10-2018: Size of the Snap packages has been updated based on [the Snapcraft documentation](https://docs.snapcraft.io/t/the-snap-directory/2817)._
-
-_Edit on 17-10-2018: Added resource usage of the native eopkg packages for comparison._

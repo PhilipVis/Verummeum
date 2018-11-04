@@ -5,6 +5,7 @@ tags = ["Neon", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/neon/neon-logo_thumbnail.jpg" 
 description= "In this article we take a deeper look into the KDE Neon Linux distribution."
+aliases = ["/blog/2018/10/07/kde-neon-review-2018/",]
 +++
 
 [KDE Neon](https://neon.kde.org/) recently released a new version of their Linux distribution, which I have been testing for the past week. I would like to share my experience with you in this article. 

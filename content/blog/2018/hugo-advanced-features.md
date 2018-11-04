@@ -5,9 +5,10 @@ tags = ["Verummeum", "Hugo", "guide"]
 categories = ["guide"]
 banner = "img/blog/2018/hugo-advanced/hugo_advanced_thumbnail.jpg" 
 description= "Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator."
+aliases = ["/blog/2018/09/16/hugo-advanced-features/",]
 +++
 
-In a [previous article](https://verummeum.com/blog/2018/09/02/how-verummeum-is-build/) I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.
+In a [previous article](https://verummeum.com/how-verummeum-is-build/) I wrote about why I chose Hugo, a static site generator, as the framework on which to build Verummeum.
 
 Now I would like to go more in depth on the more advanced features I was able to integrate into Verummeum using Hugo. I hope this guide will be interesting for anyone who would like to know about the possibilities of static site generators in general, and of Hugo specifically. I myself underestimated the capabilities of static site generators until recently when I started doing some research, and I am happy to share what I have learned in this article.
 <!--more-->

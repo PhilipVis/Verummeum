@@ -1,6 +1,7 @@
 +++
 title = "PCLinuxOS Review"
 date = "2018-08-22"
+lastmod = "2018-08-22"
 tags = ["PCLinuxOS", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/pclinuxos/pclinuxos_logo_thumbnail.jpg" 

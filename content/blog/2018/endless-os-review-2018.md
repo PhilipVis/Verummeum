@@ -5,9 +5,10 @@ tags = ["Endless", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/endless/endless-OS_thumbnail.jpg" 
 description= "In this article we take a deeper look into the Enless OS Linux distribution."
+aliases = ["/blog/2018/10/21/endless-os-review-2018/",]
 +++
 
-Last week we compared three [distribution independent package formats](https://verummeum.com/blog/2018/10/14/portable-package-formats/), so I thought it would be interesting to visit a Linux distribution that relies solely on a distribution independent packages to run desktop applications. Meet [Endless OS](https://endlessos.com/), a Debian based Linux distribution with a custom desktop environment "EOS Shell" based on GNOME. 
+Last week we compared three [distribution independent package formats](https://verummeum.com/portable-package-formats/), so I thought it would be interesting to visit a Linux distribution that relies solely on a distribution independent packages to run desktop applications. Meet [Endless OS](https://endlessos.com/), a Debian based Linux distribution with a custom desktop environment "EOS Shell" based on GNOME. 
 
 Different from most Linux distributions, the root file system of Endless OS is read-only and managed by [OSTree](https://ostree.readthedocs.io/en/latest/). This allows the system to easily and continuously be updated without the need for a system upgrade or reinstall after a major release. On top of this read-only system, Endless OS makes use of Flatpak to manage the system and user applications. 
 

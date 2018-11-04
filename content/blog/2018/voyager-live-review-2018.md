@@ -5,6 +5,7 @@ tags = ["Voyager", "Live", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/voyager/voyager_logo_thumbnail.jpg" 
 description= "In this article we take a deeper look into the Voyager Live 18.04.1 Linux distribution."
+aliases = ["/blog/2018/09/09/voyager-live-review-2018/",]
 +++
 
 [Voyager Live](https://voyagerlive.org/) is a Xubuntu based Linux distribution, offering a heavily themed XFCE desktop. This distribution aims to deliver the best user experience by providing an aesthetically pleasing and immersive desktop environment.  

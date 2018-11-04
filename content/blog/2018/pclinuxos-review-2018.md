@@ -5,6 +5,7 @@ tags = ["PCLinuxOS", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/pclinuxos/pclinuxos_logo_thumbnail.jpg" 
 description= "In this article we take a deeper look into the PCLinuxOS KDE Linux distribution."
+aliases = ["/blog/2018/08/25/pclinuxos-review-2018/",]
 +++
 
 [PCLinuxOS](https://www.pclinuxos.com/) is a rolling release Linux distribution, offering a KDE and a MATE desktop version. Besides these official versions, other community maintained flavors for other desktop environments are available. This review is based on the KDE version of PCLinuxOS.

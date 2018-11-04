@@ -5,6 +5,7 @@ tags = ["Verummeum", "Hugo", "guide"]
 categories = ["guide"]
 banner = "img/blog/2018/hugo/hugo_logo_thumbnail.jpg" 
 description= "Find out how Verummeum is built and why we choose to built it with Hugo, the static site generator."
+aliases = ["/blog/2018/09/02/how-verummeum-is-build/",]
 +++
 
 Before I started building Verummeum I compared a number of different frameworks and content management systems. 

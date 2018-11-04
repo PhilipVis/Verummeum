@@ -60,7 +60,7 @@ enableRobotsTXT = true
     logo = "img/logo.png"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/:filename/"
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]

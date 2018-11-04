@@ -5,6 +5,7 @@ tags = ["Google", "Android", "guide", "privacy", "security"]
 categories = ["guide"]
 banner = "img/blog/2018/android/android_thumbnail.jpg" 
 description= "Learn how to use Android without Google services."
+aliases = ["/blog/2018/09/30/google-free-android/",]
 +++
 
 Is it possible to have a usable Android device without Google services or apps installed? Are there open-source, or at least more privacy friendly, alternatives to the Google apps and services most Android users depend on? I have been experimenting with my Android smartphone to find an answer to these questions. With this article I want to share how I have tried to achieve a Google free Android phone and what other options are available or will be available to you in the near future to also obtain a Google free Android device.  
