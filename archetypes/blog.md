@@ -21,8 +21,6 @@ intro..
 
 ## Documentation and Community
 
-## Notes
-
-The Notes section is used to include noteworthy things I encountered while working on this review.
+## Performance and Battery
 
 ## Conclusion
