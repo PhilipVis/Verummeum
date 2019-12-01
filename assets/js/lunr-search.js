@@ -106,7 +106,7 @@ function renderResults(results) {
             "<div class='clearfix'>" +
             "<p class='author-category'>";
         for (i = 0; i < result.tags.length; i++) {
-            $resultstring += "<a href='/tags/" + result.tags[i] + "'>" + result.tags[i] + "</a>";
+            $resultstring += "<a href='/tags/" + result.tags[i].toLowerCase() + "'>" + result.tags[i] + "</a>";
             if ((i + 1) < result.tags.length) {
                 $resultstring += ", ";
             }

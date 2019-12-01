@@ -1,6 +1,7 @@
 +++
 title = "Google free Android"
 date = "2018-09-30T16:20:00+02:00"
+lastmod = "2019-12-01"
 tags = ["Google", "Android", "guide", "privacy", "security"]
 categories = ["guide"]
 banner = "img/blog/2018/android/android_thumbnail.jpg" 
@@ -40,7 +41,7 @@ The main app that we can use to get out of Google's ecosystem is [F-Droid](https
 
 ### Default app alternatives
 
-I started by replacing the default Google apps with open-source alternatives. As my keyboard app, I have been using [AnySoftKeyboard](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/). [Languages for AnySoftKeyboard](https://staging.f-droid.org/search?q=AnySoftKeyboard+language&lang=en) can be downloaded from the F-Droid store separately. For sending SMS messages I am using [QKSMS](https://f-droid.org/en/packages/com.moez.QKSMS/), a clean and simple messaging app. To use the camera I can recommend [Open Camera](https://f-droid.org/en/packages/net.sourceforge.opencamera/), which surprised me with both available features and picture quality. 
+I started by replacing the default Google apps with open-source alternatives. As my keyboard app, I have been using [AnySoftKeyboard](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/). [Languages for AnySoftKeyboard](https://search.f-droid.org/?q=anysoftkeyboard+language&lang=en) can be downloaded from the F-Droid store separately. For sending SMS messages I am using [QKSMS](https://f-droid.org/en/packages/com.moez.QKSMS/), a clean and simple messaging app. To use the camera I can recommend [Open Camera](https://f-droid.org/en/packages/net.sourceforge.opencamera/), which surprised me with both available features and picture quality. 
 
 Because I already use Mozilla Firefox as my main browser on the desktop, [Firefox Klar](https://f-droid.org/en/packages/org.mozilla.klar/) seemed like the logical choice as my browser on my phone. Firefox Klar attempts to block trackers out of the box, and provides tools to easily erase browse history, passwords and cookies.
 
