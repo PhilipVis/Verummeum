@@ -41,7 +41,7 @@ p.lead, section, div.section {
     height: 30px;
     vertical-align: middle;
     text-align: center;
-    color: #fff;
+    color: $white-main;
     font-size: 12px;
     line-height: 30px;
     border-radius: 15px;
@@ -120,17 +120,17 @@ p.lead, section, div.section {
   }
   .btn-default {
     color: $gray-main;
-    background-color: #fff;
+    background-color: $white-main;
     margin-left: 7px;
     margin-right: 0;
     &.navbar-toggle {
       color: $gray-main;
-      background-color: #fff;
+      background-color: $white-main;
       margin-left: 7px;
       margin-right: 0;
     }
     &:hover, &.navbar-toggle:hover, &:focus, &.navbar-toggle:focus {
-      background-color: #fff;
+      background-color: $white-main;
       border-color: $blue-main;
       color: $blue-main;
     }
@@ -170,7 +170,7 @@ p.lead, section, div.section {
 
 .btn-template-main {
   color: $blue-main;
-  background-color: #ffffff;
+  background-color: $white-main;
   border-color: $blue-main;
   &:hover, &:focus, &:active, &.active {
     color: $blue-main;
@@ -197,47 +197,47 @@ p.lead, section, div.section {
 
 .btn-template-main {
   &.disabled, &[disabled] {
-    background-color: #ffffff;
+    background-color: $white-main;
     border-color: $blue-main;
   }
 }
 
 .btn-template-main {
   &.disabled:hover, &[disabled]:hover {
-    background-color: #ffffff;
+    background-color: $white-main;
     border-color: $blue-main;
   }
 }
 
 .btn-template-main {
   &.disabled:focus, &[disabled]:focus {
-    background-color: #ffffff;
+    background-color: $white-main;
     border-color: $blue-main;
   }
 }
 
 .btn-template-main {
   &.disabled:active, &[disabled]:active {
-    background-color: #ffffff;
+    background-color: $white-main;
     border-color: $blue-main;
   }
 }
 
 .btn-template-main {
   &.disabled.active, &[disabled].active {
-    background-color: #ffffff;
+    background-color: $white-main;
     border-color: $blue-main;
   }
 }
 
 .btn-template-main {
   .badge {
-    color: #ffffff;
+    color: $white-main;
     background-color: $blue-main;
   }
   &:hover, &:focus, &:active, &.active {
     background: $blue-main;
-    color: #ffffff;
+    color: $white-main;
     border-color: $blue-main;
   }
 }
@@ -247,7 +247,7 @@ p.lead, section, div.section {
     padding: 5px 0;
     margin: 0;
   }
-  background: #fff;
+  background: $white-main;
   margin: 0 0 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -267,7 +267,7 @@ p.lead, section, div.section {
       padding-bottom: 10px;
     }
     .btn.btn-danger {
-      color: #fff;
+      color: $white-main;
       margin-top: 5px;
     }
   }
@@ -306,35 +306,11 @@ p.lead, section, div.section {
         }
       }
     }
-    &.tag-cloud {
-      list-style: none;
-      padding-left: 0;
-      li {
-        display: inline-block;
-        a {
-          display: inline-block;
-          padding: 5px;
-          border: solid 1px $gray-light;
-          border-radius: 0;
-          color: $blue-main;
-          margin: 5px 5px 5px 0;
-          text-transform: uppercase;
-          letter-spacing: 0.08em;
-          font-weight: 700;
-          font-size: 12px;
-          &:hover {
-            color: $blue-main;
-            text-decoration: none;
-            border-color: $blue-main;
-          }
-        }
-      }
-    }
   }
 }
 
 .box {
-  background: #fff;
+  background: $white-main;
   margin: 0 0 30px;
   border: solid 1px $text-light;
   -webkit-box-sizing: border-box;
@@ -355,7 +331,7 @@ p.lead, section, div.section {
     margin-bottom: 0;
   }
   h1 {
-    color: #fff;
+    color: $white-main;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 700;
@@ -373,20 +349,23 @@ p.lead, section, div.section {
   }
 }
 
-#blog-listing-medium .post {
-  margin-bottom: 60px;
+#blog-listing-medium {
   h2 {
     text-transform: uppercase;
     margin: 0 0 10px;
     font-size: 24px;
     letter-spacing: 0.08em;
     a {
-      color: $gray-dark;
+      color: $blue-dark;
       &:hover {
         color: $blue-main;
       }
     }
   }
+}
+
+#blog-listing-medium .post {
+  margin-bottom: 60px;
   .author-category {
     float: left;
     color: $gray-main;
@@ -458,12 +437,17 @@ p.lead, section, div.section {
     margin-bottom: 10px;
     overflow: hidden;
     img {
-      width: 200px;;
+      width: 200px;
       -webkit-transition: all 0.2s ease-out;
       -moz-transition: all 0.2s ease-out;
       transition: all 0.2s ease-out;
     }
   }
+
+  #home-art-post .image img {
+    width: auto;
+  }
+
   .read-more {
     text-align: right;
   }
@@ -475,31 +459,14 @@ p.lead, section, div.section {
   }
 }
 
-#blog-post {
-  float: none;
-  position: unset;
-
-  #post-content {
-    margin-bottom: 20px;
-
-    h1, h2, h3 {
-      margin-top: 40px;
-    }
-  }
-
-  div#comments{
-    padding: 20px 0;
-    margin-top: 20px;
-    border-top: solid 1px $gray-light;
-  }
-}
-
 #footer {
   background: $gray-dark;
   padding: 25px 0;
   color: $gray-main;
   a {
     font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
   }
   h1, h2, h3, h4, h5, h6 {
     color: $gray-light;
@@ -579,32 +546,6 @@ p.lead, section, div.section {
   }
 }
 
-.nav-pills > li {
-  float: left;
-  > a {
-    border-radius: 0;
-  }
-  + li {
-    margin-left: 2px;
-  }
-  &.active > a {
-    color: #ffffff;
-    background-color: $blue-main;
-    &:hover, &:focus {
-      color: #ffffff;
-      background-color: $blue-main;
-    }
-  }
-}
-
-.nav-stacked > li {
-  float: none;
-  + li {
-    margin-top: 2px;
-    margin-left: 0;
-  }
-}
-
 /* navbar */
 
 .navbar {
@@ -673,6 +614,14 @@ p.lead, section, div.section {
   &:hover, &:focus {
     text-decoration: none;
   }
+
+  &.home img {
+    filter: brightness(0.65);
+
+    &:hover {
+      filter: brightness(1);
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -740,9 +689,6 @@ p.lead, section, div.section {
 }
 
 @media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
   .navbar-right {
     float: right !important;
   }
@@ -768,7 +714,7 @@ p.lead, section, div.section {
 }
 
 .navbar-default {
-  background-color: #ffffff;
+  background-color: $white-main;
   border-color: $text-light;
   border-bottom: none;
   box-shadow: 0 0 5px $text-light;
@@ -782,17 +728,17 @@ p.lead, section, div.section {
   }
   .navbar-nav > {
     li > a {
-      color: $gray-dark;
+      color: $blue-dark;
       &:hover, &:focus {
-        color: $gray-dark;
+        color: $blue-dark;
         background-color: #92b3d954;
       }
     }
     .active > a {
-      color: #ffffff;
+      color: $white-main;
       background-color: $blue-main;
       &:hover, &:focus {
-        color: #ffffff;
+        color: $white-main;
         background-color: $blue-main;
       }
     }
@@ -816,10 +762,10 @@ p.lead, section, div.section {
   }
   .navbar-nav > .open > a {
     background-color: $blue-main;
-    color: #ffffff;
+    color: $white-main;
     &:hover, &:focus {
       background-color: $blue-main;
-      color: #ffffff;
+      color: $white-main;
     }
   }
 }
@@ -833,10 +779,10 @@ p.lead, section, div.section {
       }
     }
     .active > a {
-      color: #ffffff;
+      color: $white-main;
       background-color: $blue-main;
       &:hover, &:focus {
-        color: #ffffff;
+        color: $white-main;
         background-color: $blue-main;
       }
     }
@@ -858,6 +804,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: $gray-dark;
+  background-color: $white-main;
 }
 
 a {
@@ -888,7 +835,7 @@ hr {
 .dropdown-menu {
   z-index: 1000;
   font-size: 14px;
-  background-color: #ffffff;
+  background-color: $white-main;
   border: 1px solid $text-light;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0;
@@ -941,14 +888,14 @@ label {
     display: inline;
     > {
       a, span {
-        background-color: #ffffff;
+        background-color: $white-main;
         border: 1px solid $blue-main;
         border-radius: 0;
       }
       a {
         &:hover, &:focus {
           text-decoration: none;
-          color: #fff;
+          color: $white-main;
           background-color: $blue-main;
         }
       }
@@ -957,17 +904,17 @@ label {
   .disabled > {
     a {
       color: $gray-main;
-      background-color: #ffffff;
+      background-color: $white-main;
       border-color: #ddd;
       &:hover, &:focus {
         color: $gray-main;
-        background-color: #ffffff;
+        background-color: $white-main;
         border-color: #ddd;
       }
     }
     span {
       color: $gray-main;
-      background-color: #ffffff;
+      background-color: $white-main;
       border-color: #ddd;
     }
   }
@@ -992,7 +939,7 @@ p {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: $white-main;
   border: 1px solid transparent;
   border-radius: 0;
   -webkit-box-shadow: 0 0 0;
@@ -1015,7 +962,7 @@ p {
  */
 
 .yamm {
-  .nav, .collapse, .dropup.use-yamm, .dropdown.use-yamm {
+  .nav, .collapse {
     position: static;
   }
   .container {
@@ -1028,13 +975,6 @@ p {
     left: auto;
     right: 0;
   }
-  .yamm-content {
-    padding: 20px 30px;
-  }
-  .dropdown.yamm-fw .dropdown-menu {
-    left: 15px;
-    right: 15px;
-  }
 }
 
 .input-group {
@@ -1044,10 +984,6 @@ p {
 #searchinput {
   margin-top: 10px;
   margin-bottom: 40px;
-}
-
-.tag-cloud {
-  margin-top: 5px;
 }
 
 .home img {
@@ -1077,6 +1013,16 @@ p {
 .thumbnail-image {
   margin-bottom: 10px;
   display: inline-block;
+  
+  img {
+    max-width: 100%;
+  }
+}
+
+.art-image {
+  img {
+    max-width: 100%;
+  }
 }
 
 .utterances {
@@ -1185,4 +1131,48 @@ p {
     display: block;
     width: 100%;
   }
+}
+
+.btn-home-wrapper{
+
+margin-top: 30px;
+margin-bottom: 30px;
+
+  .btn-default.btn-home {
+    background-color: $blue-main;
+    color: $white-main;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    width: 250px;
+    margin:auto;
+    display:block;
+    border: 1px solid $blue-main;
+
+    &:hover {
+      background-color: $white-main;
+      color: $blue-main;
+    }
+
+    @media (max-width: 768px) {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 16px;
+      width: 100px;
+      }
+  }
+}
+
+#home-art-post {
+  @media (max-width: 768px) {
+    text-align: center;
+
+    img {
+      display:inline;
+    }
+    }
+}
+
+#home-intro {
+  font-size: 18px;
 }

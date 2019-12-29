@@ -1,11 +1,11 @@
 +++
 title = "Nvidia Optimus and Linux"
 date = "2018-12-02T20:32:00+02:00"
-lastmod = "2018-12-02"
+lastmod = "2019-12-14"
 tags = ["Nvidia", "Optimus", "Linux"]
 categories = ["guide"]
 banner = "img/blog/2018/nvidia-optimus/Nvidia_logo_thumbnail.jpg" 
-description= "In this article we take a look into running Linux on laptops with Nvidia Optimus graphics."
+description= "Read about running Linux on laptops with Nvidia Optimus graphics."
 +++
 
 A lot of laptops have both an onboard Intel graphics card for better battery life and a discrete Nvidia graphics card for better gaming performance. These laptops are called "Optimus laptops" because they make use of the Nvidia Optimus technology. I personally have such a laptop, and the past few weeks I have tested the different support options for Optimus laptops in Linux. In this article I will provide an overview of the three main technologies that are available for Linux Optimus laptops.

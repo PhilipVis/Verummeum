@@ -22,21 +22,26 @@ enableRobotsTXT = true
 # Main menu
 
 [[menu.main]]
-    name = "about"
-    url  = "/about/"
+    name = "blog"
+    url  = "/blog/"
     weight = 1
+    pre = ""
+
+[[menu.main]]
+    name = "art"
+    url  = "/art/"
+    weight = 2
     pre = ""
 
 [[menu.main]]
     name = "search"
     url  = "/search/"
-    weight = 2
+    weight = 3
     pre = "<i class='fas fa-search'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
     defaultDescription = "Read articles about software development, open-source projects and gaming, with a focus on the Linux operating system."
-
+    mainSections = ["blog", "art"]
 
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -52,7 +57,7 @@ enableRobotsTXT = true
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "philip@verummeum.com"
+    email = "contact@verummeum.com"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -61,10 +66,12 @@ enableRobotsTXT = true
 
 [Permalinks]
     blog = "/:filename/"
+    art = "/:filename/"
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   blog = ["HTML", "JSON", "RSS"]
+  art = ["HTML", "JSON", "RSS"]
 
 [privacy]
   [privacy.disqus]
@@ -78,4 +85,4 @@ enableRobotsTXT = true
   [privacy.vimeo]
     disable = true
   [privacy.youtube]
-    disable = true
+    disable = false

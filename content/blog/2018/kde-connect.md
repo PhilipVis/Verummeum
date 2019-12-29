@@ -1,10 +1,11 @@
 +++
 title = "KDE Connect: Let Android and Linux devices communicate"
 date = "2018-11-18T16:22:00+02:00"
+lastmod = "2019-12-14"
 tags = ["guide", "KDE Connect", "Linux", "Android"]
 categories = ["guide"]
 banner = "img/blog/2018/kde-connect/kde-logo_thumbnail.jpg" 
-description= "In this article we look at the capabilities of KDE Connect."
+description= "Let's take a look at the capabilities of KDE Connect."
 +++
 
 Are you interested in receiving Android notifications on your Linux desktop or are you in need of an easy way to transfer data between Android and Linux devices? In this article we will take a look at [KDE Connect](https://community.kde.org/KDEConnect), a free and [open-source](https://github.com/KDE/kdeconnect-kde) project that allows you to easily set up communication between Android and Linux devices. 

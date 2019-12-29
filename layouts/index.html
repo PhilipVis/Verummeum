@@ -1,79 +1,114 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
+<body>
 
-    <div id="all">
+  <div id="all"> 
 
-        <header>
-            
-          {{ partial "nav.html" . }}
+    <header>
 
-        </header>
+      {{ partial "nav.html" . }}
 
-        <div id="content">
-          <div class="container">
+    </header>
+
+    <div id="content">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-sm-10 col-sm-offset-1">
+              <p id="home-intro">
+                Click on Blog to read about software development, open-source projects and online privacy. Click on Art to view beautiful genertive art. 
+              </p>
+
               <div class="row">
-
-                  <div class="col-md-12" id="blog-listing-medium">
-
-                      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
-                      {{ range $paginator.Pages }}
-                      <section class="post">
-                          <div class="row">
-                              <div class="col-md-3">
-                                <div class="image">
-                                    <a href="{{ .Permalink }}">
-                                        {{ if .Params.banner }}
-                                        <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="{{ .Title }}">
-                                        {{ end }}
-                                    </a>
-                                </div>
-                              </div>
-                              <div class="col-md-9">
-                                  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                                  <div class="clearfix">
-                                      <p class="author-category">
-                                        {{ range $index, $element := .Params.tags }}{{ if gt $index 0 }}, {{ end }}<a href="{{ $.Site.BaseURL }}tags/{{ $element | urlize | lower }}">{{ $element }}</a>{{ end }}
-                                      </p>
-                                      <p class="date-comments">
-                                          <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                      </p>
-                                  </div>
-                                  <div class="intro">{{ .Summary }}</div>
-                                  <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                                  </p>
-                              </div>
-                          </div>
-                      </section>
-                      {{ end }}
-
-                      <ul class="pager">
-                          {{ if .Paginator.HasPrev }}
-                          <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
-                          {{ else }}
-                          <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-                          {{ end }}
-
-                          {{ if .Paginator.HasNext }}
-                          <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
-                          {{ else }}
-                          <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-                          {{ end }}
-                      </ul>
+                <div class="col-xs-6 btn-home-wrapper">
+                  <a class="btn btn-default btn-home" href="{{ .Site.BaseURL }}/blog">Blog</a>
+                </div>
+                <div class="col-xs-6 btn-home-wrapper">
+                    <a class="btn btn-default btn-home" href="{{ .Site.BaseURL }}/art">Art</a>
                   </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12">
+            <hr/>
+            </div>
+          <div class="col-xs-12" id="blog-listing-medium">
+
+
+            <div class="row">
+              <div class="col-sm-6 col-md-5">
+                <div class="panel panel-default sidebar-menu">
+                <div class="panel-heading text-center">
+                  <h3 class="panel-title hidden-sm hidden-md hidden-lg">Recent posts</h3>
+                </div>
+              </div>
+                {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+                <section class="post">
+                  <div class="row">
+                    <div class="col-xs-3">
+                      <div class="image">
+                        <a href="{{ .Permalink }}">
+                          {{ if .Params.banner }}
+                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="{{ .Title }}">
+                          {{ end }}
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-9">
+                      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                      <div class="clearfix">
+                      </div>
+                      
+                      <div class="intro">{{ .Description }}</div>
+                    </div>
+                  </div>
+                </section>
+                {{ end }}
 
               </div>
+
+              <div class="col-sm-6 col-md-5 col-md-offset-2">
+                  <div class="panel panel-default sidebar-menu">
+                      <div class="panel-heading text-center">
+                        <h3 class="panel-title hidden-sm hidden-md hidden-lg">Recent art</h3>
+                      </div>
+                    </div>
+                {{ range first 3 (where .Site.RegularPages "Type" "art") }}
+                <section class="post">
+                  <div class="row">
+                    <div id="home-art-post" class="col-xs-12">
+                      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                      <div class="clearfix">
+                      </div>
+                      <div class="image">
+                        <a href="{{ .Permalink }}">
+                          {{ if .Params.banner }}
+                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="{{ .Title }}">
+                          {{ end }}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                {{ end }}
+
+              </div>
+            </div>
           </div>
+
+        </div>
       </div>
-
-      {{ partial "footer.html" . }}
-
     </div>
 
-    {{ partial "scripts.html" . }}
+    {{ partial "footer.html" . }}
 
-  </body>
+  </div>
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
 </html>

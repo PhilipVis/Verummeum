@@ -1,11 +1,11 @@
 +++
 title = "Deepin 15.8 Review"
 date = "2018-12-16T16:04:00+02:00"
-lastmod = "2018-12-16"
+lastmod = "2019-12-14"
 tags = ["Deepin", "Linux", "review"]
 categories = ["review"]
 banner = "img/blog/2018/deepin/deepin-logo_thumbnail.jpg" 
-description= "In this article we take a deeper look into the Deepin Linux distribution."
+description= "Testing and reviewing the Chinese made Deepin Linux distribution."
 +++
 
 In this article we'll take a look at a Linux distribution originating from China. The distribution is called [Deepin Linux](https://www.deepin.org) and it's based on Debian's unstable branch. The Linux distribution only has one version with their own Deepin desktop environment. 
