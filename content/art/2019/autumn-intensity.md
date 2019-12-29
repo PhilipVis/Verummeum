@@ -6,6 +6,8 @@ tags = ["generative", "art", "visual"]
 categories = ["art"]
 banner = "img/art/2019/autumn_intensity/1_autumn_intensity_main_thumbnail.jpg" 
 description= "generative artwork Autumn Intensity made with Processing"
+redbubble = "https://www.redbubble.com/people/verummeum/shop?artistUserName=verummeum&collections=1242253"
+displate = ""
 +++
 
 Autumn Intensity is a generative artwork made using [Processing](https://processing.org).
