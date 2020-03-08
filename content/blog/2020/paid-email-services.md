@@ -23,7 +23,7 @@ A business that provides a paid email service will have the incentive to keep th
 
 ## Appearance
 
-In case you use your email address for business purposes, or even just when applying for a job, a paid email service can help you appear more professional and authentic compared to using one of the free email services. Most payed email services allow you to use a custom domain name for your email address, that's why you can for example reach mE on a "verummeum.com" email address. But even just using an email address of a paid email service will show anyone you contact that you value a quality service and are conscious about the topics in this article.  
+In case you use your email address for business purposes, or even just when applying for a job, a paid email service can help you appear more professional and authentic compared to using one of the free email services. Most payed email services allow you to use a custom domain name for your email address, that's why you can for example reach me on a "verummeum.com" email address. But even just using an email address of a paid email service will show anyone you contact that you value a quality service and are conscious about the topics in this article.  
 
 Another benefit of using a custom domain name is that it becomes extremely easy to switch to another email service in the future. You can keep using the same email addresses because you own the domain, you'll just need to update your domain configuration to use the new email service. 
 
