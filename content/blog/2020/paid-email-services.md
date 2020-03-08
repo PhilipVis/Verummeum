@@ -1,11 +1,11 @@
 +++
 title = "Why pay for an email service?"
-date = "2020-03-07T16:35:00+02:00"
-lastmod = "2020-03-07"
+date = "2020-03-08T22:08:00+02:00"
+lastmod = "2020-03-08"
 tags = ["email", "service", "privacy"]
 categories = ["privacy"]
 banner = "img/blog/2020/paid-email-services/email_thumbnail.jpg" 
-description= "Why should you consider using a paid email service."
+description= "Why you should consider using a paid email service."
 +++
 
 Almost everyone has at least one, and usually multiple, free email addresses from the tech giants like Google, Microsoft and Apple. It's generally mandatory to be able to use services from these companies, like the Google play store, or even just to install Windows and log in on your Windows PC. 
