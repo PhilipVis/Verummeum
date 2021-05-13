@@ -2,9 +2,9 @@ baseurl = "https://verummeum.com/"
 title = "Verummeum"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-# Enable comments by entering your Disqus shortname
+# Disqus shortname
 disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
+# Google Analytics tracking code
 googleAnalytics = ""
 
 # Define the number of posts per page
@@ -21,27 +21,21 @@ enableRobotsTXT = true
 
 # Main menu
 
-[[menu.main]]
-    name = "blog"
-    url  = "/blog/"
-    weight = 1
-    pre = ""
-
-[[menu.main]]
-    name = "art"
-    url  = "/art/"
-    weight = 2
-    pre = ""
+#[[menu.main]]
+#    name = "blog"
+#    url  = "/blog/"
+#    weight = 1
+#    pre = ""
 
 [[menu.main]]
     name = "search"
     url  = "/search/"
-    weight = 3
+    weight = 2
     pre = "<i class='fas fa-search'></i>"
 
 [params]
     defaultDescription = "Read articles about software development, open-source projects and gaming, with a focus on the Linux operating system."
-    mainSections = ["blog", "art"]
+    mainSections = ["blog"]
 
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -66,12 +60,10 @@ enableRobotsTXT = true
 
 [Permalinks]
     blog = "/:filename/"
-    art = "/:filename/"
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   blog = ["HTML", "JSON", "RSS"]
-  art = ["HTML", "JSON", "RSS"]
 
 [privacy]
   [privacy.disqus]
