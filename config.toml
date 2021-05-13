@@ -34,29 +34,11 @@ enableRobotsTXT = true
     pre = "<i class='fas fa-search'></i>"
 
 [params]
-    defaultDescription = "Read articles about software development, open-source projects and gaming, with a focus on the Linux operating system."
+    defaultDescription = "Read articles about software development, open-source projects and privacy, with a focus on the Linux operating system."
     mainSections = ["blog"]
-
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    email = "contact@verummeum.com"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
-
-    logo = "img/logo.png"
 
 [Permalinks]
     blog = "/:filename/"

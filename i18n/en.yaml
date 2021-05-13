@@ -1,32 +1,11 @@
-- id: contactForm
-  translation: "Contact form"
-
-- id: contactName
-  translation: "Your Name"
-
-- id: contactMail
-  translation: "Your Email"
-
-- id: contactMessage
-  translation: "Your Message"
-
-- id: contactSend
-  translation: "Send Message"
-
 - id: navHome
   translation: "go to homepage"
 
 - id: navToggle
   translation: "Toggle Navigation"
 
-- id: categoriesTitle
-  translation: "Categories"
-
 - id: searchTitle
   translation: "Search"
-
-- id: tagsTitle
-  translation: "Tags"
 
 - id: continueReading
   translation: "Continue reading"

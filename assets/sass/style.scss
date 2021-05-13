@@ -462,6 +462,7 @@ p.lead, section, div.section {
 #footer {
   background: $gray-dark;
   padding: 25px 0;
+  margin-top: 25px;
   color: $gray-main;
   a {
     font-weight: bold;
@@ -995,7 +996,7 @@ p {
 }
 
 #heading-breadcrumbs + #content {
-  min-height: calc(100vh - 425px);
+  min-height: calc(100vh - 449px);
 }
 
 .navigate a {
